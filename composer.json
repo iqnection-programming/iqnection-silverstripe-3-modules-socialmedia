@@ -2,7 +2,7 @@
 	"name": "iqnection-modules/socialmedia",
 	"description": "SilverStripe 3 Social Media Module",
 	"type": "silverstripe-module",
-	"keywords": ["iqnection"],
+	"keywords": ["iqnection","modules"],
 	"authors": [
 		{
 			"name": "IQnection",
