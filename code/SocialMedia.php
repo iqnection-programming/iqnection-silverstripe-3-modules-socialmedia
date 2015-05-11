@@ -32,28 +32,28 @@
 		public function updateCMSFields(FieldList $fields) 
 		{
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseFacebook", "Use Facebook"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("FacebookURL", "Facebook Link URL"));
+			if ($this->owner->UseFacebook) $fields->addFieldToTab("Root.SocialMedia", new TextField("FacebookURL", "Facebook Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseTwitter", "Use Twitter"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("TwitterURL", "Twitter Link URL"));
+			if ($this->owner->UseTwitter) $fields->addFieldToTab("Root.SocialMedia", new TextField("TwitterURL", "Twitter Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseLinkedIn", "Use LinkedIn"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("LinkedInURL", "LinkedIn Link URL"));
+			if ($this->owner->UseLinkedIn) $fields->addFieldToTab("Root.SocialMedia", new TextField("LinkedInURL", "LinkedIn Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UsePinterest", "Use Pinterest"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("PinterestURL", "Pinterest Link URL"));
+			if ($this->owner->UsePinterest) $fields->addFieldToTab("Root.SocialMedia", new TextField("PinterestURL", "Pinterest Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseInstagram", "Use Instagram"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("InstagramURL", "Instagram Link URL"));
+			if ($this->owner->UseInstagram) $fields->addFieldToTab("Root.SocialMedia", new TextField("InstagramURL", "Instagram Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseGooglePlus", "Use GooglePlus"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("GooglePlusURL", "GooglePlus Link URL"));
+			if ($this->owner->UseGooglePlus) $fields->addFieldToTab("Root.SocialMedia", new TextField("GooglePlusURL", "GooglePlus Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseBlog", "Use Blog"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("BlogURL", "Blog Link URL"));
+			if ($this->owner->UseBlog) $fields->addFieldToTab("Root.SocialMedia", new TextField("BlogURL", "Blog Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseFlickr", "Use Flickr"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("FlickrURL", "Flickr Link URL"));
+			if ($this->owner->UseFlickr) $fields->addFieldToTab("Root.SocialMedia", new TextField("FlickrURL", "Flickr Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseYouTube", "Use YouTube"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("YouTubeURL", "YouTube Link URL"));
+			if ($this->owner->UseYouTube) $fields->addFieldToTab("Root.SocialMedia", new TextField("YouTubeURL", "YouTube Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseVimeo", "Use Vimeo"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("VimeoURL", "Vimeo Link URL"));
+			if ($this->owner->UseVimeo) $fields->addFieldToTab("Root.SocialMedia", new TextField("VimeoURL", "Vimeo Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseYelp", "Use Yelp"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("YelpURL", "Yelp Link URL"));
+			if ($this->owner->UseYelp) $fields->addFieldToTab("Root.SocialMedia", new TextField("YelpURL", "Yelp Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseTumblr", "Use Tumblr"));
-			if ($this->owner->UseSocial1) $fields->addFieldToTab("Root.SocialMedia", new TextField("TumblrURL", "Tumblr Link URL"));			
+			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("TumblrURL", "Tumblr Link URL"));			
 		}
 	}
