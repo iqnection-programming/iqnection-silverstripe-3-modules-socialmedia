@@ -15,6 +15,7 @@
 			'UseVimeo' => 'Boolean',
 			'UseYelp' => 'Boolean',
 			'UseTumblr' => 'Boolean',
+			'UseHouzz' => 'Boolean',
 			'FacebookURL' => 'Varchar(255)',
 			'TwitterURL' => 'Varchar(255)',
 			'LinkedInURL' => 'Varchar(255)',
@@ -27,6 +28,7 @@
 			'VimeoURL' => 'Varchar(255)',
 			'YelpURL' => 'Varchar(255)',
 			'TumblrURL' => 'Varchar(255)',
+			'HouzzURL' => 'Varchar(255)',
 		);
 	
 		public function updateCMSFields(FieldList $fields) 
@@ -54,6 +56,8 @@
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseYelp", "Use Yelp"));
 			if ($this->owner->UseYelp) $fields->addFieldToTab("Root.SocialMedia", new TextField("YelpURL", "Yelp Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseTumblr", "Use Tumblr"));
-			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("TumblrURL", "Tumblr Link URL"));			
+			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("TumblrURL", "Tumblr Link URL"));	
+			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseHouzz", "Use Houzz"));
+			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("HouzzURL", "Houzz Link URL"));			
 		}
 	}
