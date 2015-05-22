@@ -58,6 +58,6 @@
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseTumblr", "Use Tumblr"));
 			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("TumblrURL", "Tumblr Link URL"));	
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia", new CheckboxField("UseHouzz", "Use Houzz"));
-			if ($this->owner->UseTumblr) $fields->addFieldToTab("Root.SocialMedia", new TextField("HouzzURL", "Houzz Link URL"));			
+			if ($this->owner->UseHouzz) $fields->addFieldToTab("Root.SocialMedia", new TextField("HouzzURL", "Houzz Link URL"));			
 		}
 	}
