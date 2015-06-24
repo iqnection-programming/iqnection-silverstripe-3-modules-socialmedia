@@ -33,7 +33,7 @@
 	
 		public function updateCMSFields(FieldList $fields) 
 		{
-			$fields->addFieldToTab('Root.SocialMedia', new ToggleCompositeField('ActivateFields','Activate Fields',null));
+			if (Permission::check('ADMIN')) $fields->addFieldToTab('Root.SocialMedia', new ToggleCompositeField('ActivateFields','Activate Fields',null));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia.ActivateFields", new CheckboxField("UseFacebook", "Use Facebook"));
 			if ($this->owner->UseFacebook) $fields->addFieldToTab("Root.SocialMedia", new TextField("FacebookURL", "Facebook Link URL"));
 			if (Permission::check('ADMIN')) $fields->addFieldToTab("Root.SocialMedia.ActivateFields", new CheckboxField("UseTwitter", "Use Twitter"));
