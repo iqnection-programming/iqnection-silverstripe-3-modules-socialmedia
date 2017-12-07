@@ -1,3 +1,12 @@
-SiteConfig:
+---
+Name: iqsocialmedia
+After:
+  - 'framework/*'
+  - 'cms/*'
+Before:
+  - 'mysite/*'
+---
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - SiteConfig_SocialMedia
+    - IqSocialMedia\Extensions\IqSocialMediaSiteConfigExtension
+---

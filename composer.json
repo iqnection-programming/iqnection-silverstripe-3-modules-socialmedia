@@ -1,6 +1,6 @@
 {
 	"name": "iqnection-modules/socialmedia",
-	"description": "SilverStripe 3 Social Media Module",
+	"description": "SilverStripe Social Media Module",
 	"type": "silverstripe-module",
 	"keywords": ["iqnection","modules"],
 	"authors": [
@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"silverstripe/framework": ">=3.0"
+		"silverstripe/framework": "4.*"
 	},
 	"extra": {
 		"installer-name": "iq-socialmedia"

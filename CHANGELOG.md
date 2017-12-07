@@ -1,5 +1,10 @@
-## Package: iqnection-silverstripe-3-modules-socialmedia
+## Package: iqnection-silverstripe-modules-socialmedia
 # Change Log
+
+
+## [2.0.0]
+- Updated for SilverStripe 4
+- Moved social icons template into this module
 
 
 ## [1.0.2]
