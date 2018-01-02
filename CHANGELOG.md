@@ -2,6 +2,9 @@
 # Change Log
 
 
+## [2.0.1]
+- Added Angies List
+
 ## [2.0.0]
 - Updated for SilverStripe 4
 - Moved social icons template into this module

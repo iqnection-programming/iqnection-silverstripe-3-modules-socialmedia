@@ -21,6 +21,7 @@ class IqSocialMediaSiteConfigExtension extends ORM\DataExtension
 		'UseYelp' => 'Boolean',
 		'UseTumblr' => 'Boolean',
 		'UseHouzz' => 'Boolean',
+		'UseAngiesList' => 'Boolean',
 		'FacebookURL' => 'Varchar(255)',
 		'TwitterURL' => 'Varchar(255)',
 		'LinkedInURL' => 'Varchar(255)',
@@ -34,6 +35,7 @@ class IqSocialMediaSiteConfigExtension extends ORM\DataExtension
 		'YelpURL' => 'Varchar(255)',
 		'TumblrURL' => 'Varchar(255)',
 		'HouzzURL' => 'Varchar(255)',
+		'AngiesListURL' => 'Varchar(255)',
 	);
 
 	public function updateCMSFields(Forms\FieldList $fields) 
@@ -65,6 +67,12 @@ class IqSocialMediaSiteConfigExtension extends ORM\DataExtension
 		$activateFields->push( Forms\CheckboxField::create("UseTumblr", "Use Tumblr"));
 		if ($this->owner->UseTumblr) $links->push( Forms\TextField::create("TumblrURL", "Tumblr Link URL"));	
 		$activateFields->push( Forms\CheckboxField::create("UseHouzz", "Use Houzz"));
-		if ($this->owner->UseHouzz) $links->push( Forms\TextField::create("HouzzURL", "Houzz Link URL"));			
+		if ($this->owner->UseHouzz) $links->push( Forms\TextField::create("HouzzURL", "Houzz Link URL"));
+		$activateFields->push( Forms\CheckboxField::create("UseAngiesList", "Use Angie's List"));
+		if ($this->owner->UseAngiesList) $links->push( Forms\TextField::create("AngiesListURL", "Angies List Link URL"));
 	}
 }
+
+
+
+
