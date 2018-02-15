@@ -2,6 +2,9 @@
 # Change Log
 
 
+## [2.0.2]
+- removed "After" and "Before" declaration from _config/app.yml
+
 ## [2.0.1]
 - Added Angies List
 

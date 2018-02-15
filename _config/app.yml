@@ -1,10 +1,5 @@
 ---
 Name: iqsocialmedia
-After:
-  - 'framework/*'
-  - 'cms/*'
-Before:
-  - 'mysite/*'
 ---
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
