@@ -1,6 +1,8 @@
 ## Package: iqnection-silverstripe-modules-socialmedia
 # Change Log
 
+## [2.1.0]
+- Updated for SilverStripe 4+
 
 ## [2.0.2]
 - removed "After" and "Before" declaration from _config/app.yml

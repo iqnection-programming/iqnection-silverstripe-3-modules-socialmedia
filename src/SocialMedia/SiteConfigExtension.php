@@ -1,11 +1,11 @@
 <?php
 
-namespace IqSocialMedia\Extensions;
+namespace IQnection\SocialMedia;
 
 use SilverStripe\ORM;
 use SilverStripe\Forms;
 
-class IqSocialMediaSiteConfigExtension extends ORM\DataExtension
+class SiteConfigExtension extends ORM\DataExtension
 {
 	private static $db = array(
 		'UseFacebook' => 'Boolean',

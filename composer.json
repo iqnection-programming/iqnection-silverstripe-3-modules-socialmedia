@@ -3,6 +3,7 @@
 	"description": "SilverStripe Social Media Module",
 	"type": "silverstripe-module",
 	"keywords": ["iqnection","modules"],
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "IQnection",
@@ -10,9 +11,11 @@
 		}
 	],
 	"require": {
-		"silverstripe/framework": "4.*"
+		"silverstripe/framework": "^4.1"
 	},
-	"extra": {
-		"installer-name": "iq-socialmedia"
+	"autoload": {
+		"psr-4": {
+			"IQnection\\SocialMedia\\": "app/src/"
+		}
 	}
 }
