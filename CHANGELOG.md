@@ -1,6 +1,10 @@
 ## Package: iqnection-silverstripe-modules-socialmedia
 # Change Log
 
+## [2.2.0]
+- Updated SVGs
+- Replaced SVG code with individual includes
+
 ## [2.1.0]
 - Updated for SilverStripe 4+
 
