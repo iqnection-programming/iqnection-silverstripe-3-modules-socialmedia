@@ -13,7 +13,7 @@ class SiteConfigExtension extends ORM\DataExtension
 		'UseLinkedIn' => 'Boolean',
 		'UsePinterest' => 'Boolean',
 		'UseInstagram' => 'Boolean',
-		'UseGooglePlus' => 'Boolean',
+		'UseGoogleMyBusiness' => 'Boolean',
 		'UseBlog' => 'Boolean',
 		'UseFlickr' => 'Boolean',
 		'UseYouTube' => 'Boolean',
@@ -27,7 +27,7 @@ class SiteConfigExtension extends ORM\DataExtension
 		'LinkedInURL' => 'Varchar(255)',
 		'PinterestURL' => 'Varchar(255)',
 		'InstagramURL' => 'Varchar(255)',
-		'GooglePlusURL' => 'Varchar(255)',
+		'GoogleMyBusinessURL' => 'Varchar(255)',
 		'BlogURL' => 'Varchar(255)',
 		'FlickrURL' => 'Varchar(255)',
 		'YouTubeURL' => 'Varchar(255)',
@@ -52,8 +52,8 @@ class SiteConfigExtension extends ORM\DataExtension
 		if ($this->owner->UsePinterest) $links->push( Forms\TextField::create("PinterestURL", "Pinterest Link URL"));
 		$activateFields->push( Forms\CheckboxField::create("UseInstagram", "Use Instagram"));
 		if ($this->owner->UseInstagram) $links->push( Forms\TextField::create("InstagramURL", "Instagram Link URL"));
-		$activateFields->push( Forms\CheckboxField::create("UseGooglePlus", "Use GooglePlus"));
-		if ($this->owner->UseGooglePlus) $links->push( Forms\TextField::create("GooglePlusURL", "GooglePlus Link URL"));
+		$activateFields->push( Forms\CheckboxField::create("UseGoogleMyBusiness", "Use Google My Business"));
+		if ($this->owner->UseGoogleMyBusiness) $links->push( Forms\TextField::create("GoogleMyBusinessURL", "Google My Business Link URL"));
 		$activateFields->push( Forms\CheckboxField::create("UseBlog", "Use Blog"));
 		if ($this->owner->UseBlog) $links->push( Forms\TextField::create("BlogURL", "Blog Link URL"));
 		$activateFields->push( Forms\CheckboxField::create("UseFlickr", "Use Flickr"));

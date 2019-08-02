@@ -1,3 +1,10 @@
+<% if $Icon=='GMB' && $SiteConfig.UseGoogleMyBusiness && $SiteConfig.GoogleMyBusinessURL %>
+	<li>
+		<a href="$SiteConfig.GoogleMyBusinessURL" id="icon_gmb" target="_blank">
+			<% include GMB_icon %>
+		</a>
+	</li>
+<% end_if %>
 <% if $Icon=='Facebook' && $SiteConfig.UseFacebook && $SiteConfig.FacebookURL %>
 	<li>
 		<a href="$SiteConfig.FacebookURL" id="icon_fb" target="_blank">
