@@ -1,6 +1,9 @@
 ## Package: iqnection-silverstripe-modules-socialmedia
 # Change Log
 
+## [2.3.1]
+- Updated SVG files
+
 ## [2.3.0]
 - Removed GooglePlus
 - Added Google My Business

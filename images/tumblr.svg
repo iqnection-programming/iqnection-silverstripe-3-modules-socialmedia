@@ -1,3 +1,3 @@
-<svg alt="Follow us on Tumblr" class="social-icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-	<path class="fill" d="M9.708 16c-3.396 0-4.687-2.504-4.687-4.274V6.498H3.41V4.432C5.83 3.557 6.418 1.368 6.55.12c.01-.086.077-.12.115-.12H9.01v4.076h3.2v2.422H8.997v4.98c.01.667.25 1.58 1.472 1.58h.06c.42-.012.99-.136 1.29-.278l.77 2.283c-.29.424-1.6.916-2.77.936H9.7z" fill-rule="nonzero"/>
+<svg alt="Follow us on Tumblr" class="social-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
+<path class="fill" d="M59.3,94.5c-18.6,0-25.6-13.7-25.6-23.4V42.5h-8.8V31.2c13.2-4.8,16.4-16.8,17.2-23.6C42.1,7.2,42.5,7,42.7,7h12.8v22.3H73v13.2H55.5v27.2c0.1,3.6,1.4,8.6,8,8.6h0.3c2.3-0.1,5.4-0.7,7.1-1.5l4.2,12.5c-1.6,2.3-8.8,5-15.1,5.1L59.3,94.5L59.3,94.5z"/>
 </svg>

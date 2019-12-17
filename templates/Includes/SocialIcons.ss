@@ -40,17 +40,10 @@
 		</a>
 	</li>
 <% end_if %>
-<% if $Icon=='GooglePlus' && $SiteConfig.UseGooglePlus && $SiteConfig.GooglePlusURL %>
-	<li>
-		<a href="$SiteConfig.GooglePlusURL" id="icon_gp" target="_blank">
-			<% include GooglePlus_icon %>
-		</a>
-	</li>
-<% end_if %>
 <% if $Icon=='Blog' && $SiteConfig.UseBlog && $SiteConfig.BlogURL %>
 	<li>
 		<a href="$SiteConfig.BlogURL" id="icon_bl" target="_blank">
-			Check out our Blog
+			<% include Blog_icon %>
 		</a>
 	</li>
 <% end_if %>
@@ -96,7 +89,6 @@
 		</a>
 	</li>
 <% end_if %>
-
 <% if $Icon=='AngiesList' && $SiteConfig.UseAngiesList && $SiteConfig.AngiesListURL %>
 	<li>
 		<a href="$SiteConfig.AngiesListURL" id="icon_an" target="_blank">

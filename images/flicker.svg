@@ -1,3 +1,3 @@
-<svg version="1.1" alt="Follow us on Flickr" class="social-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 7.4" xml:space="preserve">
-	<path class="fill" d="M0,3.7c0,2.1,1.7,3.7,3.7,3.7c2.1,0,3.7-1.7,3.7-3.7S5.8,0,3.7,0C1.7,0,0,1.7,0,3.7z M8.6,3.7c0,2.1,1.7,3.7,3.7,3.7c2,0,3.7-1.7,3.7-3.7S14.3,0,12.3,0C10.2,0,8.6,1.7,8.6,3.7z"/>
+<svg alt="Follow us on Flickr" class="social-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
+<path class="fill" d="M0,50.8c0,13.1,10.6,23.1,23.1,23.1c13.1,0,23.1-10.6,23.1-23.1s-10-23.1-23.1-23.1C10.6,27.6,0,38.3,0,50.8zM53.8,50.8c0,13.1,10.6,23.1,23.1,23.1S100,63.3,100,50.8S89.4,27.6,76.9,27.6C63.8,27.6,53.8,38.3,53.8,50.8z"/>
 </svg>

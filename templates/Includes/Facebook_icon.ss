@@ -1,3 +1,3 @@
-<svg alt="Like us on Facebook" class="social-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200.7 430.1" xml:space="preserve">
-	<path class="fill" d="M43.4,83.3c0,10.8,0,59.2,0,59.2H0v72.4h43.4v215.2h89.1V214.9h59.8c0,0,5.6-34.7,8.3-72.7c-7.8,0-67.8,0-67.8,0s0-42.1,0-49.5c0-7.4,9.7-17.4,19.3-17.4c9.6,0,29.8,0,48.6,0c0-9.9,0-43.9,0-75.4c-25,0-53.5,0-66,0C41.2,0,43.4,72.5,43.4,83.3z"/>
+<svg alt="Like us on Facebook" class="social-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 100 100" xml:space="preserve">
+<path class="fill" d="M38.4,24c0,2.2,0,12,0,12h-8.8v14.7h8.8v43.8h18.1V50.7h12.2c0,0,1.1-7.1,1.7-14.8c-1.6,0-13.8,0-13.8,0s0-8.6,0-10.1c0-1.5,2-3.5,3.9-3.5c2,0,6.1,0,9.9,0c0-2,0-8.9,0-15.3C65.3,7,59.5,7,57,7C38,7,38.4,21.8,38.4,24z"/>
 </svg>
