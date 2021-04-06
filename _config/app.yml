@@ -3,5 +3,4 @@ Name: iqsocialmedia
 ---
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - IQnection\SocialMedia\SiteConfigExtension
----
+    - IQnection\SocialMedia\SiteConfig\SiteConfigExtension

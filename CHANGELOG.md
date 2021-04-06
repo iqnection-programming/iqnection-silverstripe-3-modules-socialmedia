@@ -1,6 +1,11 @@
 ## Package: iqnection-silverstripe-modules-socialmedia
 # Change Log
 
+## [3.0.0]
+- Revamp
+- Icons are now managed using GridField
+- Improved templating
+
 ## [2.3.1]
 - Updated SVG files
 

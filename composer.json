@@ -7,15 +7,16 @@
 	"authors": [
 		{
 			"name": "IQnection",
-            "homepage": "http://www.iqnection.com"
+            "homepage": "https://www.iqnection.com"
 		}
 	],
 	"require": {
-		"silverstripe/framework": "^4.1"
+		"silverstripe/framework": "^4.1",
+        "symbiote/silverstripe-gridfieldextensions": "^3"
 	},
 	"autoload": {
 		"psr-4": {
-			"IQnection\\SocialMedia\\": "app/src/"
+			"IQnection\\SocialMedia\\": "src/"
 		}
 	}
 }
